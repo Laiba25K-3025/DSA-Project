@@ -1,7 +1,7 @@
 Hostel Management System
 A console-based Hostel Management System developed in C++. It provides separate portals for the warden, students, and security guard to manage hostel operations such as student records, room allocation, payments, complaints, leave requests, visitors, and gate entries.
 Features
-Warden Portal
+1. Warden Portal
 - Add, view, search, and manage student records.
 - Allocate rooms according to student eligibility and room availability.
 - Manage room bookings, deposits, rent, balances, and payment records.
@@ -10,23 +10,22 @@ Warden Portal
 - Review and process leave requests.
 - Publish hostel notices.
 - View room occupancy, student information, and management reports.
-Student Portal
+2. Student Portal
 - View personal profile and room details.
 - Check payment information and outstanding balance.
 - Submit complaints and check their status.
 - Submit leave requests.
 - View hostel notices.
-Security Guard Portal
+3. Security Guard Portal
 - Record student entry and exit.
 - Monitor late entries and violations.
 - Record visitor entries and exits.
 - View relevant gate and visitor records.
 Data Structures and Algorithms
-The project demonstrates the use of the following concepts:
-Concept	Use in the system
+Concept	Use in the System
 Arrays	Store student, room, booking, payment, visitor, leave, notice, and gate-log records
-Linked-list Queue	Maintain the room waiting list in first-come, first-served order
-Priority-ordered Linked List	Store complaints according to their priority
+Linked-List Queue	Maintain the room waiting list in first-come, first-served order
+Priority-Ordered Linked List	Store complaints according to their priority
 AVL Tree	Search active student records by student ID
 KMP Algorithm	Search student names using partial-name matching
 Merge Sort	Sort student records alphabetically
@@ -35,11 +34,10 @@ Breadth-First Search (BFS)	Traverse the room-student graph
 Dynamic Array	Store student indexes used by search and sorting operations
 Recursion	Used in recursive operations such as tree traversal and report calculations
 
-
 Technologies Used
-- Language: C++
+- Programming Language: C++
 - IDE: Dev-C++
-- Compiler: MinGW (included with many Dev-C++ installations)
+- Compiler: MinGW
 - Interface: Console-based
 Requirements
 - Windows operating system
@@ -58,13 +56,11 @@ Portal	Login PIN
 Warden	1234
 Security Guard	4321
 
-
 The program also loads three sample student records at startup:
 Student ID	Sample Name
 1001	Ahmed Khan
 1002	Ayesha Malik
 1003	Bilal Ahmed
-
 
 These are fictional demonstration records.
 Storage and Limitations
